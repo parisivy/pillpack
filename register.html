@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale = 1">
+
+	<link rel="stylesheet" type="text/css" href="pillpack.css">
+	<link rel="icon" type="image/x-icon" href="IMG/favicon.ico" >
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="pillpack.js"></script>
+
+	<script src="https://cdn.smooch.io/smooch.min.js"></script>
+	<script>
+		Smooch.init({ appToken: '39jg8eqt29c8j54vufue01ray' });
+	</script>
+
+	<title>Sign Up - PillPack</title>
+
+</head>
+
+<body class="register_body">
+	<section class="register_introBox">
+
+		<a href="home.html"> <img src="IMG/logo.png"> </a>
+		<p>No more waiting in line, sorting pills, or chasing refills. Create an account to get started.</p>
+
+	</section>
+
+	<div class="register_signUpBox">
+
+		<section class="register_signUpForm">
+
+			<form name="signUp" action="http://www.digitalhouse.com/post.php" method="POST">
+				<input type="text" placeholder="First Name" required>
+				<input type="text" placeholder="Last Name" required>
+				<input type="email" placeholder="Email Address" required>
+				<input type="password" placeholder="Create Password (at least 8 characters)" required pattern=".{8,}" title="Please choose at least 8 characters">
+			
+				<div class="register_horizontalLine"> </div>
+
+				<p> By creating an account, you agree to PillPack's <a href="#">Terms of Use</a></p>
+
+				<button type="submit">Create my account</button>
+
+			</form>
+
+			
+			
+		</section>
+
+	</div>
+
+	<section class="register_logIn">
+		<p>Already have an account?</p>
+		<a href="login.html">Log in</a>
+
+		<div class="register_FAQ">
+			<p>Have a question? Please visit our <a href="FAQ.html">FAQ section</a> or chat with us 24/7</p>
+		</div>	
+		
+	</section>
+
+</body>
+
+</html>

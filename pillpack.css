@@ -1,0 +1,2189 @@
+/*/ HOME - FULL WEB /*/
+
+@media screen and (min-device-width: 900px) {
+
+	body {
+		background-color: #f5f5f5;
+		font-family: helvetica, arial-serif;
+		margin: 0px;
+	}
+
+		.mainBox {
+			margin:0% 10%;
+		}
+
+/*/ NAV BAR /*/
+
+	.nav_bar {
+		width: 80%;
+		display: inline-block;
+		text-align: center;
+		font-size: 14px;
+		padding: 20px 0px;
+		background-color: #fff;
+		position: fixed;
+		z-index: 1;
+
+	}
+
+		.nav_bar nav {
+			background-color: #fff;
+		}
+
+			.nav_bar .nav_bar_logo {
+				margin-left: 0px;
+			}
+
+			.nav_bar img {
+				width:107px;
+				height: 20px;
+				position: relative;
+				top:3px;
+			}
+
+			.nav_bar .toggle_button {
+				display: none;
+			}
+
+			.nav_bar .toggle {
+				display: inline-block;
+			}
+
+			.nav_bar a:link {
+				color: #444444;
+				text-transform: uppercase;
+				text-decoration: none;
+				margin-left: 22px;
+			}
+
+			.nav_bar a:visited {
+				color: #444444;
+				text-transform: uppercase;
+				text-decoration: none;
+				margin-left: 22px;
+			}
+
+			.nav_bar a:hover {
+				color:#2ba6cb;
+			}
+
+			.nav_bar .signup {
+				color:#b7b7b7;
+			}
+
+			#next_to_phone {
+				margin-right: 98px;
+			}
+
+			.nav_bar button[type="button"] {
+				border:none;
+				border-radius: 20px;
+				text-transform: uppercase;
+				padding:10px;
+				background-color:#169fda;
+				color:#fff;
+				margin-right: 7px;
+				cursor: pointer;
+			}
+
+	.nav_bar_mobile {
+		display: none;
+	}
+
+/*/ PROMO BAR /*/
+
+	.promo_bar {
+		background-color:#169fda;
+		color:#fff;
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+		font-size: 14px;
+		padding: 14px 0px;
+		margin-top: 75px;
+	}
+
+		.promo_bar p {
+			margin:0px;
+			display: inline-block;
+		}
+
+
+		.promo_bar a:link {
+			text-decoration: underline;
+			color:#fff;
+			font-weight: 600;
+		}
+
+		.promo_bar a:visited {
+			text-decoration: underline;
+			color:#fff;
+			font-weight: 600;
+		}
+
+		.promo_bar a:hover {
+			text-decoration: underline;
+			color:#bcebff;
+			font-weight: 600;
+		}
+
+		#close_promo_bar {
+			display: inline-block;
+			position: relative;
+	    	left: 200px;
+	    	cursor: pointer;
+		}
+
+/*/ WELCOME /*/
+
+	.welcome {
+		background-color: #fcfcfc;
+		background-image: url(IMG/background_welcome.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top:420px;
+	}
+	
+		.welcome_message {
+			position: relative;
+			bottom: 250px;
+			width: 30%;
+			left:50%;
+			text-align: center;
+		}
+
+			.welcome_message h2 {
+				color: #169fda;
+				font-size:36px;
+				font-weight: 600;
+				line-height: 1.1;
+				margin-bottom: 5px;
+			}
+
+			.welcome_message p {
+				color: #747475;
+			    font-weight: 200px;
+			    font-size: 22px;
+			    line-height: 1.3;
+			    padding:0px 40px 0px 40px;
+			    margin-bottom: 0px;
+
+			}
+
+		.welcome_img {
+			display: none;
+		}
+
+		.toggleOut, .toggleMenu {
+			display: none;
+		}
+
+
+/*/ PRESS BAR /*/
+
+	.press_bar {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		border-bottom: 1px solid #e6e6e6;
+		background-color: #fff;
+		padding: 20px 0px;
+	}
+
+		.nav_promo a:link{
+			opacity: 0.4;
+			margin-left: 22px;
+		}
+
+		.nav_promo a:hover {
+			opacity: 0.7;
+			transition: opacity .3s;
+		}
+
+
+/*/ PHARMACY REINVENTED /*/
+
+	.pharmacy_reinvented {
+		text-align: center;
+		background-color: #fff;
+	}
+
+		.pharmacy_intro {
+			width: 50%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 60px;
+	    	padding-bottom: 60px;
+		}
+
+			.pharmacy_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.pharmacy_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.pharmacy_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+	
+		.features {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+
+			.features h2 {
+				font-size: 11px;
+				color: #222;
+				text-transform: uppercase;
+				font-weight: 600;
+				letter-spacing: 2px;
+				line-height: 1.5;
+				margin-top: 10px;
+			}
+
+			.features p {
+				font-size: 12px;
+				color: #222;
+				line-height: 1.5;
+			}
+
+			.feat_1 {
+				display: inline-block;
+				width: 16%;
+				margin-left: 0px;
+			}
+
+			.feat_2, .feat_3, .feat_4 {
+				display: inline-block;
+				width: 16%;
+				margin-left: 25px;
+			}
+
+			#f1 {
+				background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat 0 -3px;
+			    width: 60px;
+			    height: 72px;
+			    margin:auto;
+			}
+
+			#f2 {
+				background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -101px -4px;
+		    	width: 70px;
+		    	height: 72px;
+		    	margin:auto;
+			}
+
+			#f3 {
+				background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -212px 0;
+		   		width: 63px;
+		   	    height: 72px;
+		   	    margin:auto;
+			}
+
+			#f4 {
+				background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -314px -3px;
+		    	width: 72px;
+		    	height: 72px;
+		    	margin:auto;
+			}
+
+		.pharmacy_reinvented button[type="button"] {
+			border:none;
+			border-radius: 20px;
+			text-transform: uppercase;
+			padding:10px 20px;
+			background-color:#169fda;
+			font-size: 16px;
+			color:#fff;
+			margin-bottom: 60px;
+			cursor: pointer;
+
+		}
+
+/*/ SIMPLE TO USE /*/
+
+	.simple_to_use {
+		position: relative;
+	    background: url(IMG/background_simple_to_use.jpg);
+	    background-repeat: no-repeat;
+	    background-color: #ceddf1;
+	    height: 640px;
+	    text-align: left;
+	}
+
+		.simple_to_use_intro {
+			padding-left: 800px;
+	    	padding-top: 200px;
+	    	width: 25%;
+		}
+
+			.simple_to_use_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.simple_to_use_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.simple_to_use_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+/*/ YOUR DAY WITH PILLPACK /*/
+
+	.your_day {
+		background-color: #fff;
+		overflow: hidden;
+		height: 500px;
+	}
+
+		.your_day_intro {
+			width: 25%;
+			position: relative;
+			top:120px;
+			left: 220px;
+		}
+
+			.your_day_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.your_day_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.your_day_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+			.your_day_img {
+				float: right;
+				margin-right: 350px;
+			}
+
+/*/ MEDICATION DELIVERED /*/
+
+	.medication_delivered {
+		background: url(IMG/background_medication_delivered.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+    	background-color: #cfdfef;
+    	height: 770px;
+    	text-align: center;
+    	
+	}
+
+		.medication_intro {
+			width: 50%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 60px;
+	    	padding-bottom: 60px;
+		}
+
+			.medication_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.medication_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+			
+			.medication_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+/*/ ALL YOU PAY /*/
+
+	.all_you_pay {
+		background-color: #fff; 
+	}
+
+		.all_you_pay_intro {
+			width: 50%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 60px;
+	    	padding-bottom: 60px;
+	    	text-align: center;
+		}
+
+			.all_you_pay_intro h1 {
+				color: #169fda;
+				font-size:26px;
+				margin-top: 0;
+				margin-bottom: 0;
+				letter-spacing: 2px;
+				font-weight: 300;
+			}
+
+			.all_you_pay_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+			.all_you_pay_intro a:link {
+				text-transform: underline;
+				color: #444444;
+			}
+
+			.all_you_pay_intro a:hover {
+				text-transform: underline;
+				color: #169fda;
+			}
+
+/*/ THE PILLPACK DASHBOARD /*/
+
+	.the_pillpack_dashboard {
+		background-image: url(IMG/background_pillpack_dashboard.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+		background-position: center bottom;
+	}
+
+		.the_pillpack_intro {
+			width: 40%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 60px;
+	    	padding-bottom: 60px;
+	    	text-align: center;
+		}
+
+			.the_pillpack_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.the_pillpack_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.the_pillpack_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+/*/ CLOSING BOX /*/
+
+	.closingBox {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		background-color: #fff;
+		padding: 5px 0px 5px 0px;
+	}
+
+		.closingBox p {
+			margin:0px;
+			font-size: 10px;
+			display: inline-block;
+			color: #a3a3a3;
+		}
+
+		.closingBox nav a:link {
+			margin:0px 0px 0px 10px;
+			font-size: 10px;
+			display: inline-block;
+			text-decoration: none;
+			color: #a3a3a3;
+		}
+
+		.closingBox nav a:hover {
+			color: #169fda;
+		}
+
+
+/*/ REGISTER - FULL WEB /*/
+
+.register_body {
+	background-color: #f7f7f7;
+}
+
+	.register_introBox {
+		width:25%;
+		margin:100px auto auto auto;
+		text-align: center;
+		color: #747475;
+		font-size:20px;
+		line-height: 1.5;
+	}
+
+		.register_introBox img{
+			width:144px;
+		}
+
+
+	.register_signUpBox {
+		background-color: #fff;
+		width: 25%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		box-shadow: 0.6px 0.6px 0.6px 0.6px #a6a6a6;
+	}
+
+
+		.register_signUpForm {
+			padding-top: 40px;
+		}
+
+			.register_signUpForm input{
+				display:block;
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 10px;
+				padding-left: 10px;
+				padding-bottom: 10px;
+				font-size: 20px;
+				line-height: 1.5;
+				border:0.5px solid #e6e6e6;
+
+			}
+
+				.register_signUpForm input[type="text"], input[type="email"] {
+					display:block;
+					width: 90%;
+					margin-left: auto;
+					margin-right: auto;
+					padding-top: 10px;
+					padding-left: 10px;
+					padding-bottom: 10px;
+					font-size: 20px;
+					line-height: 1.5;
+					border-bottom:none;
+
+				}
+
+		.register_horizontalLine {
+			border-bottom: 0.5px solid #f7f7f7;
+			width: 90%;
+			margin:25px auto 25px auto;
+		}
+
+			.register_signUpForm p {
+				color:#747475;
+				font-size:14px;
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+
+			.register_signUpForm a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:14px;
+			}
+
+			.register_signUpForm button {
+				background-color: #169fda;
+				color: #fff;
+				font-size: 20px;
+				font-weight: 300;
+				text-align: center;
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				border:none;
+				border-radius: 3px;
+				padding:10px 0px 10px 0px;
+				cursor: pointer;
+			}
+
+
+		.register_logIn {
+			width: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			color: #747475;
+			font-size:20px;
+			line-height: 1.5;
+		}
+
+			.register_logIn p {
+				margin: 20px 0px 0px 0px;
+			}
+
+			.register_logIn a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:20px;
+			}
+
+				.register_FAQ {
+					font-size:14px;
+				}
+
+					.register_FAQ a { 
+					font-size:14px;
+				}
+
+/*/ LOG IN - FULL WEB /*/
+
+.login_body {
+	background-color: #f7f7f7;
+}
+
+	.login_introBox {
+		width:25%;
+		margin:100px auto auto auto;
+		text-align: center;
+		color: #747475;
+		font-size:20px;
+		line-height: 1.5;
+	}
+
+		.login_introBox img{
+			width:144px;
+		}
+
+
+	.login_signUpBox {
+		background-color: #f7f7f7;
+		width: 25%;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		
+	}
+
+
+		.login_signUpForm {
+			padding-top: 20px;
+		}
+
+				.login_signUpForm input{
+					display:block;
+					width: 90%;
+					margin-left: auto;
+					margin-right: auto;
+					padding-top: 10px;
+					padding-left: 10px;
+					font-size: 20px;
+					line-height: 1.5;
+					border:0.5px solid #e6e6e6;
+
+				}
+
+					.login_signUpForm input[type="text"], input[type="email"] {
+						display:block;
+						width: 90%;
+						margin-left: auto;
+						margin-right: auto;
+						padding-top: 10px;
+						padding-left: 10px;
+						padding-bottom: 10px;
+						font-size: 20px;
+						line-height: 1.5;
+						border-bottom:none;
+
+					}
+
+			.login_horizontalLine {
+				border-bottom: 0.5px solid #f7f7f7;
+				width: 90%;
+				margin:25px auto 25px auto;
+			}
+
+			.login_signUpForm p {
+				color:#747475;
+				font-size:14px;
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+
+			.login_signUpForm a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:14px;
+			}
+
+			.login_signUpForm button {
+				background-color: #169fda;
+				color: #fff;
+				font-size: 20px;
+				font-weight: 300;
+				text-align: center;
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				border:none;
+				border-radius: 3px;
+				padding:10px 0px 10px 0px;
+				cursor: pointer;
+			}
+
+
+		.login_logIn {
+			width: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			color: #747475;
+			font-size:20px;
+			line-height: 1.5;
+		}
+
+			.login_logIn p {
+				margin: 40px 0px 0px 0px;
+			}
+
+			.login_logIn a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:20px;
+			}
+
+				.login_FAQ {
+					font-size:14px;
+				}
+
+					.login_FAQ a { 
+					font-size:14px;
+				}
+
+
+/*/ FAQ - FULL WEB /*/
+
+#current {
+	font-weight: bold;
+}
+
+.FAQ_welcome {
+	background: url(IMG/FAQ_welcome_background.png);
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	color:#fff;
+	position: relative;
+
+}
+
+	.FAQ_welcome_message {
+		font-weight: 600;
+		width: 100%;
+		position: absolute;
+		top: 120px;
+
+	}
+
+		.FAQ_welcome_message h2 {
+			font-weight: 600;
+			font-size: 36px;
+			letter-spacing: 2px;
+			margin-top: 0px;
+		}
+
+		.FAQ_welcome_message p {
+			font-weight: 300;
+			font-size: 20px;
+			margin-top: 0px;
+
+		}
+
+	.FAQ_welcome_contact {
+		width: 100%;
+		position: absolute;
+		top:210px;
+		
+	}
+
+		.tel_contact {
+			width: 20%;
+			display: inline-block;
+		}
+
+		.mail_contact {
+			width: 20%;
+			display: inline-block;
+		}
+
+		.chat_contact {
+			width: 20%;
+			display: inline-block;
+		}
+
+			.chat_contact img {
+				width: 60px;
+									
+			}
+
+.FAQ_description {
+	background-color: #fff;
+	margin: 0px;
+	border-bottom: 0.5px solid #f7f7f7;
+}
+
+	.FAQ_description h2 {
+		color: #747475;
+		font-size:24px;
+		margin: 0px;
+		letter-spacing: 2px;
+		font-weight: 200;
+		padding-top: 30px;
+		padding-left: 50px;
+	}
+
+	.FAQ_horizontalLine {
+		border-bottom: 0.5px solid #f7f7f7;
+		margin:25px 3% 25px 3%;
+	}
+
+	.FAQ_questions {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+		.FAQ_questions h3{
+			color: #169fda;
+			font-size:13px;
+			text-transform: uppercase;
+			margin-top: 0;
+			letter-spacing: 2px;
+			font-weight: 600;
+		}
+
+		.FAQ_questions p{
+			color: #747475;
+			font-size:14px;
+			margin-top: 0;
+			letter-spacing: 1px;
+			line-height: 1.5;
+		}
+
+
+/*/ PRICING - FULL WEB /*/
+
+
+.pricing_welcome {
+	background: url(IMG/FAQ_welcome_background.png);
+	background-position: center;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	display: inline-block;
+	color:#fff;
+	position: relative;
+
+}
+
+	.pricing_welcome_message {
+		font-weight: 600;
+		width: 100%;
+		position: absolute;
+		top: 130px;
+
+	}
+
+		.pricing_welcome_message h2 {
+			font-weight: 600;
+			font-size: 36px;
+			letter-spacing: 2px;
+			margin-top: 0px;
+		}
+
+		.pricing_welcome_message p {
+			font-weight: 300;
+			font-size: 20px;
+			margin-top: 0px;
+
+		}
+
+.pricing_description {
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+
+	.pricing_description table {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		border-spacing: 20px;
+
+	}
+
+		thead, tfoot {
+			background-color:#169fda;
+			color:#fff;
+			text-align: center;
+			font-size: 20px;
+			height: 40px;
+		}
+
+			thead td {
+				padding: 10px 0px 10px 0px;
+			}
+
+			tfoot td {
+				padding: 10px 0px 10px 0px;
+			}
+
+			tfoot a:link {
+				color:#fff;
+				font-weight: bold;
+				text-decoration: none;
+
+			}
+
+			tfoot a:hover {
+				text-decoration: underline;
+
+			}
+
+			tbody tr {
+				background-color: #f2f2f2;
+
+			}
+
+
+			tbody h3 {
+				color: #169fda;
+				font-size:20px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+				padding-top: 20px;
+				
+			}
+
+			
+			tbody img {
+				width: 40%;
+				height: 160px; 
+				
+			}
+
+		
+
+				
+
+	}
+
+
+/*/ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ /*/
+
+/*/ HOME - MOBILE WEB /*/
+
+@media screen and (max-device-width: 900px) {
+
+	body {
+		font-family: helvetica, arial-serif;
+		margin: 0px;
+	}
+
+		.mainBox {
+			margin:0%;
+		}
+
+/*/ NAV BAR /*/
+
+	.nav_bar {
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		padding:0px;
+		background-color: #f2f2f2;
+		position: fixed;
+		z-index: 1;
+		box-shadow: 0px 0.6px #a6a6a6;
+
+	}
+
+	.nav_bar .toggle_button {
+			display: inline-block;
+			background-color: transparent;
+		}
+
+			.nav_bar .toggle_button img {
+				width: 75%;
+				height: 75%;
+				position: relative;
+				top:5px;	
+				left: -25px;
+				margin: 0px;
+			}
+
+	.nav_bar nav {
+			padding: 5px 0px 5px 0px;
+		}
+
+			.nav_bar .nav_bar_logo {
+				margin-left: 0px;
+			}
+
+			.nav_bar img {
+				width:107px;
+				height: 20px;
+				position: relative;
+				top:3px;
+				left: -45px;
+			}
+
+			.nav_bar .toggle {
+				display: none;
+			}
+
+			.nav_bar a:link {
+				color: #444444;
+				text-transform: uppercase;
+				text-decoration: none;
+				margin-left: 22px;
+			}
+
+			.nav_bar a:visited {
+				color: #444444;
+				text-transform: uppercase;
+				text-decoration: none;
+				margin-left: 22px;
+			}
+
+			.nav_bar a:hover {
+				color:#2ba6cb;
+			}
+
+			.nav_bar .signup {
+				color:#b7b7b7;
+			}
+
+			#next_to_phone {
+				margin-right: 98px;
+			}
+
+			.nav_bar button[type="button"] {
+				border:none;
+				border-radius: 20px;
+				text-transform: uppercase;
+				padding:7px 10px 7px 10px;
+				background-color:#169fda;
+				color:#fff;
+				margin-right: 7px;
+				cursor: pointer;
+				position: relative;
+				right: -20px;
+				bottom: 2px;
+			}
+
+	.nav_bar_mobile {
+		display: relative;
+	}
+
+		.nav_bar_mobile a:link {
+			color: #444444;
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-left: 22px;
+		}
+
+		.nav_bar_mobile a:visited {
+			color: #444444;
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-left: 22px;
+		}
+
+		.nav_bar a:hover {
+			color:#2ba6cb;
+		}
+
+		.nav_bar .signup {
+			color:#b7b7b7;
+		}
+
+		#next_to_phone {
+			margin-right: 98px;
+		}
+
+/*/ PROMO BAR /*/
+
+	.promo_bar {
+		background-color:#169fda;
+		color:#fff;
+		text-align: center;
+		display: none;
+		width: 100%;
+		font-size: 14px;
+		padding: 14px 0px;
+		margin-top: 75px;
+	}
+
+		.promo_bar p {
+			margin:0px;
+			display: inline-block;
+		}
+
+
+		.promo_bar a:link {
+			text-decoration: underline;
+			color:#fff;
+			font-weight: 600;
+		}
+
+		.promo_bar a:visited {
+			text-decoration: underline;
+			color:#fff;
+			font-weight: 600;
+		}
+
+		.promo_bar a:hover {
+			text-decoration: underline;
+			color:#bcebff;
+			font-weight: 600;
+		}
+
+		#close_promo_bar {
+			display: inline-block;
+			position: relative;
+	    	left: 200px;
+		}
+
+/*/ WELCOME /*/
+
+	.welcome {
+		background-color: #fff;
+	    background-position: center;
+	    background-size: 90%;
+	    background-repeat: no-repeat;
+	    padding-top: 90px;
+	    position: relative;
+	}
+
+		.welcome_message {
+			position: relative;
+			width: 100%;
+			text-align: center;
+		}
+
+			.welcome_message h2 {
+				color: #169fda;
+				font-size:30px;
+				font-weight: 600;
+				line-height: 1.1;
+				margin-bottom: 5px;
+				margin-top: 0px;
+			}
+
+			.welcome_message p {
+				color: #747475;
+			    font-weight: 200px;
+			    font-size: 18px;
+			    line-height: 1.3;
+			    padding:0px 30px 0px 30px;
+			    margin-bottom: 0px;
+
+			}
+
+		.welcome_img {
+			display: block;
+			width: 80%;
+			margin-top: 50px;
+		}
+
+			.welcome_img img {
+				height: 95%;
+				width:95%;
+				margin-left:19%;
+			}
+
+		.toggleOut {
+			position: absolute;
+			top:47px;
+			width: 70%;
+			background-color: #f7f7f7;
+			display: none;
+			text-align: left;
+			z-index: 1;
+		}
+
+			.toggleOut .blue_square {
+				background-color: #169fda;
+				height: 10px;
+				width: 10px;
+				display: inline-block;
+			}
+
+			.toggleOut a:link {
+				display: block;
+				text-decoration: none;
+				border-bottom:1px solid #fafafa;
+				margin:0px;
+				color: #444444;
+				text-transform: uppercase;
+				padding: 15px 5px;
+			}
+
+			.toggleOut #next_to_phone {
+				margin:0px;
+			}
+
+/*/ PRESS BAR /*/
+
+	.press_bar {
+		width: 100%;
+		display: block;
+		text-align: center;
+		border-top: 1px solid #f2f2f2;
+		border-bottom: 1px solid #f2f2f2;
+		background-color: #fff;
+		padding: 20px 0px;
+	}
+
+		.nav_promo a:link{
+			opacity: 0.4;
+			margin-left: 20px;
+		}
+
+		.nav_promo a:hover {
+			opacity: 0.7;
+			transition: opacity .3s;
+		}
+
+/*/ PHARMACY REINVENTED /*/
+
+	.pharmacy_reinvented {
+		text-align: center;
+		background-color: #fff;
+	}
+
+		.pharmacy_intro {
+			width: 90%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 30px;
+	    	padding-bottom: 30px;
+		}
+
+			.pharmacy_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.pharmacy_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.pharmacy_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+
+
+	.features {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+		.features h2 {
+			font-size: 11px;
+			color: #222;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 2px;
+			line-height: 1.5;
+			margin-top: 10px;
+		}
+
+		.features p {
+			font-size: 12px;
+			color: #222;
+			line-height: 1.5;
+		}
+
+		.feat_1, .feat_3 {
+			display: inline-block;
+			width: 40%;
+			margin-left: 0px;
+			margin-bottom: 20px;
+		}
+
+		.feat_2, .feat_4 {
+			display: inline-block;
+			width: 40%;
+			margin-left: 25px;
+		}
+
+		#f1 {
+			background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat 0 -3px;
+		    width: 60px;
+		    height: 72px;
+		    margin:auto;
+		}
+
+		#f2 {
+			background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -101px -4px;
+	    	width: 70px;
+	    	height: 72px;
+	    	margin:auto;
+		}
+
+		#f3 {
+			background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -212px 0;
+	   		width: 63px;
+	   	    height: 72px;
+	   	    margin:auto;
+		}
+
+		#f4 {
+			background: url(https://d3hkg7onzzl0nx.cloudfront.net/assets/icons/sprite_sheet-d8f049e134994892a2e79a996073ccde.png) no-repeat -314px -3px;
+	    	width: 72px;
+	    	height: 72px;
+	    	margin:auto;
+		}
+
+	.pharmacy_reinvented button[type="button"] {
+		border:none;
+		border-radius: 20px;
+		text-transform: uppercase;
+		padding:10px 20px;
+		background-color:#169fda;
+		font-size: 16px;
+		color:#fff;
+		margin-bottom: 60px;
+		cursor: pointer;
+
+	}
+
+
+/*/ SIMPLE TO USE /*/
+
+	.simple_to_use {
+		position: relative;
+	    background: url(IMG/background_simple_to_use_mobile.jpg);
+	    background-repeat: no-repeat;
+	    background-color: #ceddf1;
+	    background-position: center bottom;
+	    background-size: cover;
+	    text-align: center;
+	    padding-top:200px;
+	}
+
+		.simple_to_use_intro {
+			padding-left: 0px;
+	    	padding-top: 200px;
+	    	width: 90%;
+	    	margin-left:auto;
+	    	margin-right: auto;
+	    	position: relative;
+	    	bottom: 350px;
+
+		}
+
+			.simple_to_use_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.simple_to_use_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.simple_to_use_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+
+/*/ YOUR DAY WITH PILLPACK /*/
+
+	.your_day {
+		background-color: #fff;
+		overflow: hidden;
+		height: 400px;
+	}
+
+		.your_day_intro {
+			width: 100%;
+			position: relative;
+			top:30px;
+			left:20px;
+			text-align: left;
+		}
+
+			.your_day_intro h2 {
+				width: 55%;
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.your_day_intro h3 {
+				width: 55%;
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.your_day_intro p {
+				width: 55%;
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+			.your_day_img {
+				
+			}	
+
+			.your_day_img img {
+				position: relative;
+				bottom: 277px;
+			    right: 15px;
+			    float: right;
+			    height: 30%;
+			    width: 30%;
+			    margin: 0px;
+			}
+
+
+/*/ MEDICATION DELIVERED /*/
+
+	.medication_delivered {
+		background: url(IMG/background_medication_delivered_mobile.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center bottom;
+	    background-color: #cfdfef;
+	    background-size: 700px;
+	    height: 560px;
+	    text-align: center;
+		
+	}
+
+		.medication_intro {
+			width: 90%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 60px;
+	    	padding-bottom: 60px;
+		}
+
+			.medication_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.medication_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.medication_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+
+
+/*/ ALL YOU PAY /*/
+
+	.all_you_pay {
+		background-color: #fff; 
+	}
+
+		.all_you_pay_intro {
+			width: 90%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 30px;
+	    	padding-bottom: 30px;
+	    	text-align: center;
+		}
+
+			.all_you_pay_intro h1 {
+				color: #169fda;
+				font-size:26px;
+				margin-top: 0;
+				margin-bottom: 0;
+				letter-spacing: 2px;
+				font-weight: 300;
+				width: 95%;
+			}
+
+			.all_you_pay_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+			.all_you_pay_intro a:link {
+				text-transform: underline;
+				color: #444444;
+			}
+
+			.all_you_pay_intro a:hover {
+				text-transform: underline;
+				color: #169fda;
+			}
+
+/*/ THE PILLPACK DASHBOARD /*/
+
+	.the_pillpack_dashboard {
+		background-image: url(IMG/background_pillpack_dashboard.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 472px;
+		background-position: center bottom;
+	}
+
+		.the_pillpack_intro {
+			width: 90%;
+			margin-left: auto;
+	    	margin-right: auto;
+	    	padding-top: 30px;
+	    	padding-bottom: 30px;
+	    	text-align: center;
+		}
+
+			.the_pillpack_intro h2 {
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+
+			}
+
+			.the_pillpack_intro h3 {
+				color: #747475;
+				font-size:24px;
+				font-weight: 200;
+
+			}
+
+			.the_pillpack_intro p {
+				color: #747475;
+				font-size:14px;
+				letter-spacing: 1px;
+				line-height: 1.5;
+			}
+
+/*/ CLOSING BOX /*/
+
+	.closingBox {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		background-color: #fff;
+		padding: 5px 0px 5px 0px;
+		z-index: 1;
+	}
+
+		.closingBox p {
+			margin:0px;
+			font-size: 10px;
+			display: inline-block;
+			color: #a3a3a3;
+		}
+
+		.closingBox nav a:link {
+			margin:0px 0px 0px 10px;
+			font-size: 10px;
+			display: inline-block;
+			text-decoration: none;
+			color: #a3a3a3;
+		}
+
+		.closingBox nav a:hover {
+			color: #169fda;
+		}
+
+
+/*/ REGISTER - MOBILE WEB /*/
+
+	.register_body {
+	background-color: #f7f7f7;
+	}
+
+	.register_introBox {
+		width:95%;
+		margin:20px auto auto auto;
+		text-align: center;
+		color: #747475;
+		font-size:20px;
+		line-height: 1.5;
+	}
+
+		.register_introBox img{
+			width:144px;
+		}
+
+
+	.register_signUpBox {
+		background-color: #fff;
+		width: 95%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		box-shadow: 0.3px 0.3px 0.3px 0.3px #a6a6a6;
+	}
+
+
+		.register_signUpForm {
+			padding-top: 40px;
+		}
+
+				.register_signUpForm input{
+					display:block;
+					width: 90%;
+					margin-left: auto;
+					margin-right: auto;
+					padding-top: 10px;
+					padding-left: 10px;
+					padding-bottom: 10px;
+					font-size: 14px;
+					line-height: 1.5;
+					border:0.5px solid #e6e6e6;
+
+				}
+
+					.register_signUpForm input[type="text"], input[type="email"] {
+						display:block;
+						width: 90%;
+						margin-left: auto;
+						margin-right: auto;
+						padding-top: 10px;
+						padding-left: 10px;
+						padding-bottom: 10px;
+						font-size: 14px;
+						line-height: 1.5;
+						border-bottom:none;
+
+				}
+
+			.register_horizontalLine {
+				border-bottom: 0.5px solid #f7f7f7;
+				width: 95%;
+				margin:25px auto 25px auto;
+			}
+
+			.register_signUpForm p {
+				color:#747475;
+				font-size:14px;
+				width: 95%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+
+			.register_signUpForm a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:14px;
+			}
+
+			.register_signUpForm button {
+				background-color: #169fda;
+				color: #fff;
+				font-size: 20px;
+				font-weight: 300;
+				text-align: center;
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				border:none;
+				border-radius: 3px;
+				padding:10px 0px 10px 0px;
+				cursor: pointer;
+			}
+
+
+		.register_logIn {
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			color: #747475;
+			font-size:20px;
+			line-height: 1.5;
+		}
+
+			.register_logIn p {
+				margin: 20px 0px 0px 0px;
+			}
+
+			.register_logIn a {
+				text-decoration: none;
+				color:#169fda;
+				font-size:20px;
+			}
+
+				.register_FAQ {
+					font-size:14px;
+				}
+
+					.register_FAQ a { 
+					font-size:14px;
+				}
+
+/*/ LOG IN - MOBILE WEB /*/
+
+	.login_body {
+	background-color: #f7f7f7;
+	}
+
+		.login_introBox {
+			width:95%;
+			margin:20px auto auto auto;
+			text-align: center;
+			color: #747475;
+			font-size:20px;
+			line-height: 1.5;
+		}
+
+			.login_introBox img{
+				width:144px;
+			}
+
+
+		.login_signUpBox {
+			background-color: #f7f7f7;
+			width: 95%;
+			height: 200px;
+			margin-left: auto;
+			margin-right: auto;
+			display:block;
+			
+		}
+
+
+			.login_signUpForm {
+				padding-top: 20px;
+			}
+
+					.login_signUpForm input{
+						display:block;
+						width: 90%;
+						margin-left: auto;
+						margin-right: auto;
+						padding-top: 10px;
+						padding-left: 10px;
+						padding-bottom: 10px;
+						font-size: 14px;
+						line-height: 1.5;
+						border:0.5px solid #e6e6e6;
+
+					}
+
+						.login_signUpForm input[type="text"], input[type="email"] {
+							display:block;
+							width: 90%;
+							margin-left: auto;
+							margin-right: auto;
+							padding-top: 10px;
+							padding-left: 10px;
+							padding-bottom: 10px;
+							font-size: 14px;
+							line-height: 1.5;
+							border-bottom:none;
+
+					}
+
+				.login_horizontalLine {
+					border-bottom: 0.5px solid #f7f7f7;
+					width: 95%;
+					margin:25px auto 25px auto;
+				}
+
+				.login_signUpForm p {
+					color:#747475;
+					font-size:14px;
+					width: 95%;
+					margin-left: auto;
+					margin-right: auto;
+					text-align: center;
+				}
+
+				.login_signUpForm a {
+					text-decoration: none;
+					color:#169fda;
+					font-size:14px;
+				}
+
+				.login_signUpForm button {
+					background-color: #169fda;
+					color: #fff;
+					font-size: 20px;
+					font-weight: 300;
+					text-align: center;
+					width: 90%;
+					margin-left: 5%;
+					margin-right: 5%;
+					margin-top: 5%;
+					border:none;
+					border-radius: 3px;
+					padding:10px 0px 10px 0px;
+					cursor: pointer;
+				}
+
+
+			.login_logIn {
+				width: 95%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				color: #747475;
+				font-size:20px;
+				line-height: 1.5;
+			}
+
+				.register_logIn p {
+					margin: 20px 0px 0px 0px;
+				}
+
+				.register_logIn a {
+					text-decoration: none;
+					color:#169fda;
+					font-size:20px;
+				}
+
+					.register_FAQ {
+						font-size:14px;
+					}
+
+						.register_FAQ a { 
+						font-size:14px;
+					}
+
+
+/*/ FAQ - MOBILE WEB /*/
+
+	#current {
+	font-weight: bold;
+	}
+
+		.FAQ_welcome {
+		background: url(IMG/FAQ_welcome_background.png);
+		background-position: center;
+		width: 100%;
+		height: 350px;
+		text-align: center;
+		display: inline-block;
+		color:#fff;
+		position: relative;
+
+		}
+
+		.FAQ_welcome_message {
+			font-weight: 600;
+			width: 90%;
+		    margin-left: 20px;
+		    margin-right: 20px;
+		    position: absolute;
+		    top: 80px;
+		}
+
+			.FAQ_welcome_message h2 {
+				font-weight: 600;
+				font-size: 36px;
+				letter-spacing: 2px;
+				margin-top: 0px;
+			}
+
+			.FAQ_welcome_message p {
+				font-weight: 300;
+				font-size: 12px;
+				margin-top: 0px;
+
+			}
+
+		.FAQ_welcome_contact {
+			width: 100%;
+			position: absolute;
+			top:190px;
+			
+		}
+
+			.tel_contact {
+				width: 27%;
+				display: inline-block;
+			}
+
+			.mail_contact {
+				width: 25%;
+			    margin-left: 10px;
+			    margin-right: 41px;
+			    display: inline-block;
+			}
+
+			.chat_contact {
+				width: 25%;
+				display: inline-block;
+			}
+
+				.chat_contact img {
+					width: 60px;
+										
+				}
+
+		.FAQ_description {
+		background-color: #fff;
+		margin: 0px;
+		border-bottom: 0.5px solid #f7f7f7;
+		}
+
+		.FAQ_description h2 {
+			color: #747475;
+			font-size:20px;
+			margin: 0px;
+			letter-spacing: 2px;
+			font-weight: 200;
+			padding-top: 30px;
+			padding-left: 20px;
+		}
+
+		.FAQ_horizontalLine {
+			border-bottom: 0.5px solid #f7f7f7;
+			margin:25px 3% 25px 3%;
+		}
+
+		.FAQ_questions {
+			width: 80%;
+			margin-left: 0px;
+			margin-right: auto;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+			.FAQ_questions h3{
+				color: #169fda;
+				font-size:13px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+			}
+
+			.FAQ_questions p{
+				color: #747475;
+				font-size:14px;
+				margin-top: 0;
+				letter-spacing: 1px;
+				line-height: 1.5;
+				text-align: justify;
+			}
+
+/*/ PRICING - MOBILE WEB /*/
+
+	.pricing_welcome {
+	background: url(IMG/FAQ_welcome_background.png);
+	background-position: center;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	display: inline-block;
+	color:#fff;
+	position: relative;
+
+	}
+
+	.pricing_welcome_message {
+		font-weight: 600;
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 20px;
+		position: absolute;
+		top: 100px;
+
+	}
+
+		.pricing_welcome_message h2 {
+			font-weight: 600;
+			font-size: 32px;
+			letter-spacing: 2px;
+			margin-top: 0px;
+		}
+
+		.pricing_welcome_message p {
+			font-weight: 300;
+			font-size: 16px;
+			margin-top: 0px;
+
+		}
+
+	.pricing_description {
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	}
+
+	.pricing_description table {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		border-spacing: 20px;
+
+	}
+
+		thead, tfoot {
+			background-color:#169fda;
+			color:#fff;
+			text-align: center;
+			font-size: 16px;
+			height: 40px;
+		}
+
+			thead td {
+				padding: 10px 0px 10px 0px;
+			}
+
+			tfoot td {
+				padding: 10px 0px 10px 0px;
+			}
+
+			tfoot a:link {
+				color:#fff;
+				font-weight: bold;
+				text-decoration: none;
+
+			}
+
+			tfoot a:hover {
+				text-decoration: underline;
+
+			}
+
+			tbody tr {
+				background-color: #f2f2f2;
+			}
+
+
+			tbody h3 {
+				color: #169fda;
+				font-size:14px;
+				text-transform: uppercase;
+				margin-top: 0;
+				letter-spacing: 2px;
+				font-weight: 600;
+				padding-top: 20px;
+			}
+
+			
+			tbody img {
+				width: 40%;
+				height: 100px; 				
+			}
+}
+
+
+
